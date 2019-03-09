@@ -1,3 +1,6 @@
 name: Yingru Xu
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+# Google analytics services
+google_analytics: UA-81645509-1 # CHANGE THIS TO YOURS
