@@ -14,7 +14,7 @@
 
 
 
-<title>Reading: Dive into Deep Learning | Yingru&#39;s Page</title>
+<title>Reading-Interpretable-Machine-Learning.md | Yingru&#39;s Page</title>
 
 
 
@@ -179,7 +179,7 @@
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">Reading: Dive into Deep Learning</h1>
+            <h1 class="post-title">Reading-Interpretable-Machine-Learning.md</h1>
             
                 <div class="post-meta">
                     
@@ -188,7 +188,7 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">October 8, 2020&nbsp;&nbsp;23:31:15</a>
+                        Date: <a href="#">October 14, 2020&nbsp;&nbsp;23:30:07</a>
                         </span>
                     
                     
@@ -197,7 +197,38 @@
         </header>
 
         <div class="post-content">
-            <h1 id=""><a href="#" class="headerlink" title=""></a></h1>
+            <p><a target="_blank" rel="noopener" href="https://christophm.github.io/interpretable-ml-book/preface-by-the-author.html">reference</a></p>
+<h1 id="Why-do-we-want-interpretability"><a href="#Why-do-we-want-interpretability" class="headerlink" title="Why do we want interpretability?"></a>Why do we want interpretability?</h1><ul>
+<li>Out of human curiousity and learning –&gt; gain knowledge</li>
+<li>Require safety measures and testing</li>
+</ul>
+<h1 id="How-to-classify-interpretability-methods"><a href="#How-to-classify-interpretability-methods" class="headerlink" title="How to classify interpretability methods?"></a>How to classify interpretability methods?</h1><ul>
+<li><p>Intrinsic vs. Ad hoc?</p>
+<ul>
+<li>intrinsic interpretability restricts the complex of the model and, are considered interpretable due to their simple structure, such as short decision trees or sparse linear models</li>
+<li>Post hoc refers to interpretation after model training, </li>
+</ul>
+</li>
+<li><p>Results of the interpretation</p>
+<ul>
+<li>feature summary statistics (such as feature importance, pairwise feature interaction strengths)</li>
+<li>feature summary visualization (such as partial dependence of a feature)</li>
+<li>model internals (learned weights, for certain models, it is mixed with feature importance)</li>
+<li>one solution to interpreting black box model is to approximate them (globally or local model) with an interpretable model. The interpretable model itself is then interpreted by looking at some internal model parameters</li>
+</ul>
+</li>
+<li><p>Model-specific or model-agnostic?</p>
+</li>
+<li><p>local or global?</p>
+</li>
+</ul>
+<h1 id="How-to-evaluate-the-quality-of-explanation"><a href="#How-to-evaluate-the-quality-of-explanation" class="headerlink" title="How to evaluate the quality of explanation?"></a>How to evaluate the quality of explanation?</h1><ul>
+<li>accuracy? -&gt; how well does an explanation predict unseen data?</li>
+<li>fidelity. –&gt; how well does the explanation approcimate the prediction of the black box model? subset of the data (local surrogate model), or for an individual data instance (shapley value)</li>
+<li>consistency. –&gt; two models use similar features have similar predictions</li>
+<li>representativeness -&gt; single individual prediction (sharpley values) vs. interpretation of weights in a linear regression model</li>
+</ul>
+
         </div>
 
         
@@ -211,7 +242,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="http://yingru.github.io/2020/10/08/Reading-Dive-into-Deep-Learning/">http://yingru.github.io/2020/10/08/Reading-Dive-into-Deep-Learning/</a></span>
+                        <span><a href="http://yingru.github.io/2020/10/14/Reading-Interpretable-Machine-Learning-md/">http://yingru.github.io/2020/10/14/Reading-Interpretable-Machine-Learning-md/</a></span>
                     </p>
                 
                 
@@ -234,12 +265,6 @@
                 <span>Tag(s):</span>
                 <span class="tag">
                     
-                    
-                        <a href="/tags/Reading/"># Reading</a>
-                    
-                        <a href="/tags/Deep-Learning/"># Deep Learning</a>
-                    
-                        
                 </span>
             </div>
             <div>
@@ -250,10 +275,10 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/10/14/Reading-Interpretable-Machine-Learning-md/">Reading-Interpretable-Machine-Learning.md</a>
+                <a class="prev" rel="prev" href="/2020/10/23/Resampling-md/">Resampling.md</a>
             
             
-            <a class="next" rel="next" href="/2020/10/04/DS-data-preprocessing/">DS_data_preprocessing</a>
+            <a class="next" rel="next" href="/2020/10/08/Reading-Dive-into-Deep-Learning/">Reading: Dive into Deep Learning</a>
             
         </section>
 

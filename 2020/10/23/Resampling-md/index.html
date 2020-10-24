@@ -14,7 +14,7 @@
 
 
 
-<title>Reading: Dive into Deep Learning | Yingru&#39;s Page</title>
+<title>Resampling.md | Yingru&#39;s Page</title>
 
 
 
@@ -179,7 +179,7 @@
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">Reading: Dive into Deep Learning</h1>
+            <h1 class="post-title">Resampling.md</h1>
             
                 <div class="post-meta">
                     
@@ -188,7 +188,7 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">October 8, 2020&nbsp;&nbsp;23:31:15</a>
+                        Date: <a href="#">October 23, 2020&nbsp;&nbsp;21:34:57</a>
                         </span>
                     
                     
@@ -197,7 +197,13 @@
         </header>
 
         <div class="post-content">
-            <h1 id=""><a href="#" class="headerlink" title=""></a></h1>
+            <h1 id="Resampling-techniques"><a href="#Resampling-techniques" class="headerlink" title="Resampling techniques"></a>Resampling techniques</h1><h2 id="down-sampling"><a href="#down-sampling" class="headerlink" title="down-sampling"></a>down-sampling</h2><p>a common practice in imbalanced classification problem. However, question is, after downsampling, how should re-adjust the interception, or how are we supposed to add different weights for positive/negative class in the loss function?</p>
+<p>For logistic regression, the interception correction is straightforward, and is not dependent on the specific input $x$:</p>
+<p>$$\beta_{0}}^* = \beta_{0} - \log\left(\frac{1-\pi}{\pi} \cdot \frac{n_1}{n_0}\right)$$</p>
+<ul>
+<li>where $n_0$ and $n_1$ are the number of </li>
+</ul>
+
         </div>
 
         
@@ -211,7 +217,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="http://yingru.github.io/2020/10/08/Reading-Dive-into-Deep-Learning/">http://yingru.github.io/2020/10/08/Reading-Dive-into-Deep-Learning/</a></span>
+                        <span><a href="http://yingru.github.io/2020/10/23/Resampling-md/">http://yingru.github.io/2020/10/23/Resampling-md/</a></span>
                     </p>
                 
                 
@@ -235,9 +241,9 @@
                 <span class="tag">
                     
                     
-                        <a href="/tags/Reading/"># Reading</a>
+                        <a href="/tags/data-processing/"># data processing</a>
                     
-                        <a href="/tags/Deep-Learning/"># Deep Learning</a>
+                        <a href="/tags/resampling/"># resampling</a>
                     
                         
                 </span>
@@ -250,10 +256,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/10/14/Reading-Interpretable-Machine-Learning-md/">Reading-Interpretable-Machine-Learning.md</a>
             
-            
-            <a class="next" rel="next" href="/2020/10/04/DS-data-preprocessing/">DS_data_preprocessing</a>
+            <a class="next" rel="next" href="/2020/10/14/Reading-Interpretable-Machine-Learning-md/">Reading-Interpretable-Machine-Learning.md</a>
             
         </section>
 
